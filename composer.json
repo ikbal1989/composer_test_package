@@ -1,0 +1,26 @@
+{
+    "name": "ikbal/php_util",
+    "description": "php utility class",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ikbal Hossain",
+            "email": "ikbal.official@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ikbal\\PhpUtill\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ikbal\\PhpUtill\\": "src"
+        }
+    }
+}
